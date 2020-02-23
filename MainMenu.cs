@@ -23,19 +23,6 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("TwoPLayer");
     }
-
-    public void EnterAbout()
-    {
-        SceneManager.LoadScene("About");
-    }
-    public void EnterHelp()
-    {
-        SceneManager.LoadScene("Help");
-    }
-    public void EnterMain()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
     public void Quit()
     {
         Application.Quit();
